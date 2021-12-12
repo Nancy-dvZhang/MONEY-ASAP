@@ -361,10 +361,14 @@ We built a [shiny app](https://ykxxx.shinyapps.io/predictor/) for users to predi
 <details>
 <summary><b>Shiny APP Implementation</b> (<i>Click to Expand</i>)</summary>
 <br>
-<p>We implemented 3 main features in our Shiny App, which are embedded in 3 seperate tabs.</p>
+<p>We implemented 4 main features in our Shiny App, which are embedded in 4 seperate tabs.</p>
 <div id="estimator" class="section level4">
 <h4>Estimator</h4>
 <p>User can input their information for each of the 5 features in the drop-down bar, and our salary estimator will return a table of salary estimation as well as the confidence intercal for each of the 15 titles.</p>
+</div>
+<div id="geomap" class="section level4">
+<h4>Geo Map</h4>
+<p>User can either view the base salary distribution across different states in the United States, or choose to filter certain feature level and view the corresponding base salary distribution. However, there are missing value for certain states for specific feature levels.</p>
 </div>
 <div id="boxplot" class="section level4">
 <h4>Boxplot</h4>
